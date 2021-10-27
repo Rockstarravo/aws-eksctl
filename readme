@@ -1,0 +1,6 @@
+1.Create the EKS cluster
+2. Install eksctl in windows or linux
+If windows use (choco and choco install eksctl)
+3. eksctl create cluster --name test-cluster --version 1.17 --region ap-south-1 --nodegroup-name linux-nodes --node-type t2.micro --nodes 2
+(((( this will setup the cluster name and creates the vpc also created cloud formation stack to provision the istances
+4. Kubectl get nodes
